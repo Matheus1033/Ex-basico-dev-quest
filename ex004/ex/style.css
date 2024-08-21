@@ -1,0 +1,15 @@
+:root {
+    --color-1: #BB86FC;
+    --color-2: #00C4B4;
+    --color-3: #424250;
+    --color-4: #FFFFFF;
+} table td{
+    color: var(--color-4);
+    background-color: var(--color-3);
+} table .casa{
+    color: var(--color-4);
+    background-color: var(--color-2);
+} table .moda{
+    color: var(--color-4);
+    background-color: var(--color-1);
+}
