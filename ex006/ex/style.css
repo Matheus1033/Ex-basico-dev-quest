@@ -1,0 +1,56 @@
+/*variable*/
+:root {
+    --text-color: hsl(193, 38%, 86%);
+    --second-color: hsl(150, 100%, 66%);
+    --card-color: hsl(217, 19%, 24%);
+    --background-color: hsl(218, 23%, 16%);
+}
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*code*/
+section {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: var(--text-color);
+    font-size: 18px;
+} main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .card {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: var(--card-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} .card p {
+    padding: 10px 20px;
+    width: 350px;
+    text-align: center;
+    line-height: 1.5;
+}.card span {
+    color: var(--second-color);
+    font-size: 10px;
+} .card .bnt {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .card .bnt i {
+    color: #000;
+    width: 25px;
+    height: 25px;
+}
